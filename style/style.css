@@ -13,19 +13,17 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url("./static/forest.jpg");
-    object-fit: cover;
+    background: #fff;
 }
 .card{
     width: 18rem;
-    /* border: 1px solid #3da8f3; */
-    background: #3da8f3;
+    background:#248A03;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .card-img-top{
-    height: 18rem;
+    height: calc(18rem - 20px);
     width: 100%;
     object-fit: cover;
 }
@@ -56,7 +54,7 @@ margin-bottom: 7px;
 }
 .btn-readmore{
     color: #fff;
-    background: #E77518;
+    background: #DE21A7;
     padding: 8px 16px;
     margin-top: 7px;
     border: none;
@@ -66,7 +64,7 @@ margin-bottom: 7px;
 }
 .btn-readmore:hover{
     background: white;
-    color: #E77518;
+    color: #DE21A7;
     border-radius: 0;
     font-weight: bolder;
 }
