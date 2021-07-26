@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./static/forest.jpg");
+    object-fit: cover;
+}
+.card{
+    width: 18rem;
+    /* border: 1px solid #3da8f3; */
+    background: #3da8f3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-img-top{
+    height: 18rem;
+    width: 100%;
+    object-fit: cover;
+}
+.card-detail{
+    padding: 15px 10px;
+    color: white;
+}
+.card-title{
+font-family: "Roboto";
+font-size: 20px;
+font-weight: bolder;
+text-align: center;
+margin-bottom: 7px;
+
+}
+.card-text{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: normal;
+    text-align: justify;
+}
+#more {
+    display: none;
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn-readmore{
+    color: #fff;
+    background: #E77518;
+    padding: 8px 16px;
+    margin-top: 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.btn-readmore:hover{
+    background: white;
+    color: #E77518;
+    border-radius: 0;
+    font-weight: bolder;
+}
+
+
+
